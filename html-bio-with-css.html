@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS Stylesheets With Relative Paths</title>
+
+    <!-- This line is money! It points your HTML to the CSS file. -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  </head>
+
+  <body>
+    <header>
+      <h1>Student Bio</h1>
+    </header>
+
+    <div class="container">
+      <section id="main-bio">
+        <h2>Kevin Sencherey</h2>
+
+        <img
+          id="bio-image"
+          src="assets/KSencherey-min.jpg"
+          alt="Kevin Sencherey"
+        />
+
+        <p>
+          I’m a software Developer with the following set of Frontend Skills:
+          <br />• HTML/CSS: Proficient in creating and styling web pages using
+          HTML and CSS. <br />• JavaScript: Strong understanding of JavaScript
+          language, including ES6 features such as arrow functions and
+          destructuring. <br />• React: Experienced in building user interfaces
+          using React.<br />• Responsive Web Design: Skilled in designing and
+          building web pages that are optimized for various devices and screen
+          sizes. <br />• Figma: Proficient in design and prototyping using
+          Figma. <br />• Git/Github: Proficient in version control and
+          collaboration using Git and Github. <br />• TailwindCSS: Proficient in
+          styling and layout using the TailwindCSS framework. <br />• Material
+          UI: Proficient in creating user interfaces using the Material UI
+          library.
+        </p>
+      </section>
+
+      <section id="contact-info">
+        <h2>Contact Info</h2>
+        <ul>
+          <li>
+            <strong>Email:</strong> <a href="#">ksscholastic@gmail.com</a>
+          </li>
+          <li><strong>Github:</strong> <a href="#">KSencherey</a></li>
+          <li>
+            <strong>Portfolio:</strong>
+            <a href="http://www.kevinsencherey.dev/" target="_blank"
+              >kevinsencherey</a
+            >
+          </li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
